@@ -21,4 +21,22 @@
         </dependency>
     </dependencies>
 
+    <properties>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+    </properties>
+
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                <version>3.1</version>    &lt;!&ndash;maven-compiler-plugin版本写一个中央仓库有的版本，保存后它会自动下载 &ndash;&gt;-->
+<!--                <configuration>-->
+<!--                    <source>10</source>    &lt;!&ndash;我的jdk是10.0.1的，写成10.0.1不好用，所以就写成10了 &ndash;&gt;-->
+<!--                    <target>10</target>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
+
 </project>
